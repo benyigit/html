@@ -1,0 +1,150 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Kayıt Formu</title>
+        <link rel="shortcut icon" type="image/png" href="logo.png"/>
+        <style >
+            body{
+                background:#0fb0ed;
+                font-size:10px;
+                font-family:Trebuchet MS;
+            }
+            #kayitodev{
+
+                border-radius:10px;
+                background:#ffffff;
+                width:360px;
+                margin:auto;
+                margin-top:20px;
+                padding:15px;
+                text-align:center;
+            }
+            input, button
+            {
+                border-radius:5px;
+                border:none;
+                width:300px;
+                height:50px;
+                margin:20px 0px 20px 0px;
+                background:rgba(240,240,240,.5);
+                padding-left:15px;
+                font-style:bold;
+
+            }
+
+            .btn{
+                background:#1a47ab;
+                color:white;
+            }
+            h3{
+                color:#2764d3;
+                text-transform:uppercase;
+                font-size:20px;
+                 font-style: bold;            }
+          .reset {
+            background:#9f3737  ;
+            color:white;        }
+
+            .mail {              padding: 0px;
+              padding: 0px;
+              width: 20px;
+              height: 20px;
+              margin-left: 26px;
+              display: flex;
+              align-items: center;
+
+            }
+
+            .yazi {
+           width: 50px;
+           color: #737272;
+            }
+
+            .email{
+            margin-bottom: 3px !important;
+
+            }
+
+            .gile{
+            margin-right: 4px;
+
+
+            }
+            .dt{
+              width: 25px;
+              color: black;
+            }
+            .erkek{
+              margin-right: 4px;
+            }
+
+            .erkekyazi{
+              width: 50px;
+              color: #737272;
+              padding-right: 15px;
+
+            }
+
+            .dogum1{
+
+              margin-bottom: 3px !important;
+            }
+
+            .dogum {
+              padding: 20px;
+              width: 40px;
+              height: 20px;
+              margin-left: 26px;
+              display: flex;
+              align-items: center;
+
+            }
+
+            .kadin{
+              margin-right: 4px;
+            }
+
+            .baslik{
+           width: 250px;
+           color: black;
+           size: 50px;
+           font-size: 15px;
+           padding-right: 15px;
+           padding-left: 49px;
+
+            }
+        </style>
+    </head>
+    <body>
+        <div id="kayitodev">
+            <form>
+                <img src="logo.png" width="50px" height="50px">
+                <font color=""><h3>Kayıt Ol</h3></font>
+                <input type="text" name="adsoy" placeholder="Ad Soyad" required maxlength="26"  />
+                <input type="text" name="adiniz" placeholder="Kullanıcı Adı" required maxlength="10"  /> </br>
+                <input class="email" type="email" name="eposta" placeholder="E-Posta" required /> </br>
+<div class="mail">
+                <input type="checkbox" name="gizle" class="gile" value="gizle"> </br>
+                <p class="yazi" for="gizle"> Gizle </p>
+                </div>
+                <input type="password" name="parola" placeholder="Şifre" required pattern="[0-9a-zA-Z]{5}"/></br>
+                <input type="password" name="parola" placeholder="Şifre Tekrarı" required pattern="[0-9a-zA-Z]{5}"/></br>
+<input type="date" class="dogum1" name="dogumTarihi" placeholder="Doğum" required="required">
+<div class="dogum">
+  <p class="baslik"> Cinsiyet </p>
+<input type="radio" name="cinsiyet" class="erkek" value="gizle">
+<p class="erkekyazi" for="erkekyazi"> Erkek </p>
+<input type="radio" name="cinsiyet" class="kadin" value="gizle">
+<p class="erkekyazi" for="erkekyazi"> Kadın </p>
+</div>
+                <input class="btn" type="submit" value="Kaydet" /></br>
+                <input class="reset" type="reset" value="Temizle"/> <br>
+
+                <font face="tahoma">Tüm Hakları Saklıdır.<br> Developed by <a href="https://github.com/benyigit"> benyigit </a> </font>
+            </form>
+
+        </div>
+
+
+    </body>
+</html>
