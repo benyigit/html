@@ -1,2 +1,2 @@
 # Basit HTML 
-Basit HTML liste kodları
+Bazı basit html kodlarını içeren rehber örnek niteliğinde hazırlanmış kodlar.
